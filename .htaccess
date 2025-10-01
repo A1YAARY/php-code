@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^3dingeniousstudio\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.3dingeniousstudio\.com$
+RewriteRule ^/?$ "https\:\/\/www\.3dingeniousstudio\.com\/" [R=301,L]
